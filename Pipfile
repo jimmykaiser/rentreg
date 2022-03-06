@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+pandas = "*"
+pypdf2 = "*"
+tabula-py = "*"
+geopy = "*"
+requests = "*"
+folium = "*"
+
+[dev-packages]
+ipykernel = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.9"
